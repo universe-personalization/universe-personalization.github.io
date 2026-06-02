@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html class="fontawesome-i2svg-active fontawesome-i2svg-complete">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta property="og:title" content="Grounded Text-to-Image Synthesis with Attention Refocusing">
+  <meta property="og:image" content="./images/teaser.jpg">
+  <meta property="og:description" content="Grounded Text-to-Image Synthesis with Attention Refocusing">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="663">
+  <meta property="og:type" content="website">
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="./assets/js"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-9VZKE74FPW');
+  </script>
+  <title>Universe:  A Unified Modulation Framework for Segmentation-Free,
+    Disentangled Multi-Concept Personalization </title>
+
+  <link href="./assets/css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/bulma.min.css">
+  <link rel="stylesheet" href="./assets/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./assets/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./assets/css/tab_gallery.css">
+  <link rel="stylesheet" href="./assets/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="./assets/css/academicons.min.css">
+  <link rel="stylesheet" href="./assets/css/index.css">
+  <link rel="stylesheet" href="./assets/css/juxtapose.css">
+
+
+ 
+
+
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/index.js"></script>
+  <script defer="" src="./assets/js/fontawesome.all.min.js"></script>
+  <script src="./assets/js/bulma-carousel.min.js"></script>
+  <script src="./assets/js/bulma-slider.min.js"></script>
+  <script src="./assets/js/magnifier.js"></script>
+  <link href="./assets/menlo" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Akronim' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Sofia ' rel='stylesheet'>
+  <link rel="stylesheet" href="./assets/css/image_card_fader.css">
+  <link rel="stylesheet" href="./assets/css/image_card_slider.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/menlo');
+    .author-block {
+      display: inline-block;
+      margin: 4px 10px;
+    }
+    .slider-item > .item {
+      display: flex;            /* Make this a flex container */
+      justify-content: center;  /* Center contents horizontally */
+      align-items: center;      /* Center contents vertically */
+    }
+  </style>
+</head>
+
+
+
+<body data-new-gr-c-s-check-loaded="14.1098.0" data-gr-ext-installed="">
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-2 publication-title">Universe:A Unified Modulation Framework for Segmentation-Free,
+              Disentangled Multi-Concept Personalization</h1>
+            
+            <div class="is-size-5 publication-venue">
+              <span class="author-block"><a href="https://qqphung.github.io/">Quynh Phung</a><sup>1</sup></span>
+              <span class="author-block"><a href="https://sandeshgh.com/">Sandesh Ghimire</a><sup>2</sup></span>
+              <span class="author-block"><a href="https://minsihu.com/">Minsi Hu</a><sup>1</sup></span>
+              
+              <span class="author-block"><a href="https://sites.google.com/view/chungchitsai">Chung-Chi Tsai</a><sup>2</sup></span>
+              <span class="author-block"><a href="https://jbhuang0604.github.io/">Jia-Bin Huang</a><sup>1</sup></span>
+            </div>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>University of Maryland, College Park</span>
+              <span class="author-block"><sup>2</sup>Qualcomm Technologies, Inc.</span>
+            </div>
+            <div class="is-size-5" style="margin-top: 8px; font-weight: 600;">CVPR 2026</div>
+            <div class="buttons is-centered" style="margin-top: 10px;">
+              <a class="button is-light is-rounded" href="#" target="_blank">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span><span>PDF</span>
+              </a>
+              <a class="button is-light is-rounded" href="#" target="_blank">
+                <span class="icon"><i class="fas fa-book"></i></span><span>arXiv</span>
+              </a>
+              <!-- <a class="button is-light is-rounded" href="#" target="_blank">
+                <span class="icon"><i class="fab fa-youtube"></i></span><span>Video</span>
+              </a>
+              <a class="button is-light is-rounded" href="#" target="_blank">
+                <span class="icon"><i class="fas fa-quote-right"></i></span><span>BibTeX</span>
+              </a> -->
+            </div>
+            </div>
+
+           
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+
+  <!-- check -->
+  
+ 
+
+
+  <hr>
+
+  <!-- teaser -->
+ <section class="hero is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <div class="content has-text-centered">
+            <h2 class="title is-3 has-text-centered">Teaser</h2>
+            <img src="./images_custom/our_results/rebuttal/teaser.png" width="150%">
+            <p class="subtitle is-5" style="margin-top: 12px; text-align: left;"><strong>Multi-concept customization with UniVerse</strong>. Given a set of reference images and their corresponding text descriptions, our
+              method seamlessly extracts relevant visual concepts and synthesizes new images by composing them, without requiring expensive model
+              finetuning or segmentation. Our approach effectively extracts concepts from objects with partial occlusion or abstract styles, and reliably
+              preserves the distinct identities present in the reference images</p>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</section>
+<!--/ teaser -->
+
+ 
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3 has-text-centered" style="margin-bottom: 50px;margin-top:-20px;">Compose and Decompose Objects </h2>
+        <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/112_A_dog_wears_a_hat_as_it_plays_in_the_gar.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+          <img src="./images_custom/our_results/multiple_objects/357_The_dog_joyfully_chased_the_bouncing_bal.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+          <img src="./images_custom/our_results/multiple_objects/528_A_cup_of_coffee_calmed_the_dog_after_its.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/572_A_doll_galloped_joyfully_on_the_back_of_.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/288_The_cat_amused_itself_by_batting_at_the_.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/245_In_the_cozy_living_room,_a_playful_cat_e.png" id="output_image" style="width:80%" >
+        </div>
+       
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/443_The_horse_galloped_gracefully_past_the_d.png" id="output_image" style="width:80%" >
+        </div>
+       
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/277_The_dog_gently_nibbled_on_the_petals_of_.png" id="output_image" style="width:80%" >
+        </div>
+        
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/593_A_hat_danced_gently_in_the_warm_breeze_o.png" id="output_image" style="width:80%" >
+        </div>
+        
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/130_A_horse_galloped_past_the_soccer_game,_s.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/275_In_the_sunny_living_room,_a_playful_cat_.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/129_A_passionate_man_dribbles_the_soccer_bal.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/343_The_bunch_of_flowers_danced_gently_atop.png" id="output_image" style="width:80%" >
+        </div>
+       
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/58_A_squirrel_cleverly_uses_an_umbrella_as_.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/140_The_dog_was_using_the_shirt_as_a_blanket.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/600_A_squirel_hides_a_nut_under_its_hat_in_t.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/29_A_woman_adorns_the_garden_with_her_gentl.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/121_A_squirrel_chased_a_soccer_ball_across_t.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/57_A_woman_carves_a_pumpkin_for_Halloween_n.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/364_The_dog_wore_old,_oversized_glasses_as_i.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/115_A_dog_sipped_from_an_upturned_cup_in_the.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/485_The_dog_chased_the_vase_around_the_garde.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/185_A_dog_carved_into_a_spooky_pumpkin_for_H.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/280_The_energetic_dog_chased_the_bouncing_ba.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/95_A_flower_blooms_beautifully_next_to_the_.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/71_A_dog_happily_chases_a_soccer_ball_in_th.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/338_The_doll_wore_the_shirt_to_the_room's_pu.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/606_A_cup_of_hot_cocoa_warms_a_chilly_squirr.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/108_A_dog_barks_happily_while_trying_on_a_co.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/131_In_the_sunny_living_room,_a_playful_dog_.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/136_A_dog_wore_a_hat_as_it_played_in_the_gar.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/multiple_objects/13_A_woman_sits_gracefully_on_a_comfortable.png" id="output_image" style="width:80%" >
+        </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero is-light">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3 has-text-centered" style="margin-bottom: 50px;margin-top:-20px;">Abstract Concept Composition </h2>
+        <div id="results-carousel" class="carousel results-carousel">
+        
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/32_A_doll_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+        
+        <div class="item item-steve" style="align-items: center;">
+          <img src="./images_custom/our_results/style_single_draw/25_A_doll_in_the_style.png" id="output_image" style="width:80%" >
+        </div>
+
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/13_A_dog_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+
+        <div class="item item-steve" style="align-items: center;">
+          <img src="./images_custom/our_results/style_single_draw/58_A_car_in_the_style.png" id="output_image" style="width:80%" >
+        </div>
+
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/154_A_soccer_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+          <img src="./images_custom/our_results/style_single_draw/58_A_car_in_the_style.png" id="output_image" style="width:80%" >
+      </div>
+
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/60_A_doll_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/58_A_dog_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/66_A_cat_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/8_A_doll_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/14_A_cat_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/52_A_doll_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+       
+        
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/73_A_doll_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/174_A_doll_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/34_A_car_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/11_A_doll_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/68_A_squirrel_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/38_A_cat_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/38_A_woman_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/37_A_dog_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/77_A_dog_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/10_A_car_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/72_A_doll_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/40_A_soccer_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/33_A_doll_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/12_A_vase_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/41_A_dog_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/lighting/9_A_doll_under_the_light_shining_on_it.png" id="output_image" style="width:80%" >
+        </div>
+
+        <div class="item item-steve" style="align-items: center;">
+          <img src="./images_custom/our_results/style_single_draw/20_A_vase_in_the_style.png" id="output_image" style="width:80%" >
+      </div>
+     
+      <div class="item item-steve" style="align-items: center;">
+          <img src="./images_custom/our_results/style_single_draw/19_A_doll_in_the_style.png" id="output_image" style="width:80%" >
+      </div>
+      <div class="item item-steve" style="align-items: center;">
+          <img src="./images_custom/our_results/style_single_draw/27_A_doll_in_the_style.png" id="output_image" style="width:80%" >
+      </div>
+      <div class="item item-steve" style="align-items: center;">
+          <img src="./images_custom/our_results/style_single_draw/258_A_squirrel_in_the_style.png" id="output_image" style="width:80%" >
+      </div>
+      <div class="item item-steve" style="align-items: center;">
+          <img src="./images_custom/our_results/style_single_draw/16_A_doll_in_the_style.png" id="output_image" style="width:80%" >
+      </div>
+      
+      <div class="item item-steve" style="align-items: center;">
+          <img src="./images_custom/our_results/style_single_draw/94_A_vase_in_the_style.png" id="output_image" style="width:80%" >
+      </div>
+      <div class="item item-steve" style="align-items: center;">
+          <img src="./images_custom/our_results/style_single_draw/24_A_doll_in_the_style.png" id="output_image" style="width:80%" >
+      </div>
+      <div class="item item-steve" style="align-items: center;">
+          <img src="./images_custom/our_results/style_single_draw/49_A_doll_in_the_style.png" id="output_image" style="width:80%" >
+      </div>
+
+        
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- multiple obj -->
+ <section class="hero is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <div class="content has-text-centered">
+            <h2 class="title is-3 has-text-centered">Multiple subjects</h2>
+            <img src="./images_custom/our_results/rebuttal/6_ref.png" width="150%">
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</section>
+<!--/ multiple obj -->
+  
+
+  <!-- <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3 has-text-centered" style="margin-bottom: 50px;margin-top:-20px;">Abstract Style Composition </h2>
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/style_single_draw/59_A_doll_in_the_style.png" id="output_image" style="width:80%" >
+        </div>
+        
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/style_single_draw/25_A_doll_in_the_style.png" id="output_image" style="width:80%" >
+        </div>
+
+          <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/style_single_draw/58_A_car_in_the_style.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/style_single_draw/20_A_vase_in_the_style.png" id="output_image" style="width:80%" >
+        </div>
+       
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/style_single_draw/19_A_doll_in_the_style.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/style_single_draw/27_A_doll_in_the_style.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/style_single_draw/258_A_squirrel_in_the_style.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/style_single_draw/16_A_doll_in_the_style.png" id="output_image" style="width:80%" >
+        </div>
+        
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/style_single_draw/94_A_vase_in_the_style.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/style_single_draw/24_A_doll_in_the_style.png" id="output_image" style="width:80%" >
+        </div>
+        <div class="item item-steve" style="align-items: center;">
+            <img src="./images_custom/our_results/style_single_draw/49_A_doll_in_the_style.png" id="output_image" style="width:80%" >
+        </div>
+
+      </div>
+    </div>
+  </section> -->
+
+  <!-- framework -->
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column is-full-width">
+            <div class="content has-text-centered">
+              <h2 class="title is-3 has-text-centered">Framework</h2>
+              <img src="images_custom/our_results/rebuttal/method.png" width="150%">
+              <p class="subtitle is-5" style="margin-top: 12px; text-align: left;"><strong>Our proposed UniVerse Framework to generate personalized images from in-the-wild reference images.</strong> (a) Inference:
+                The Reference Condition Extractor (RCE) extracts both visual and textual references. The two features are extracted from CLIP and
+                T5  encoders with additional modules to adapt to DiT blocks. The textual reference includes a shared vector Δ&#x0303<sup>s</sup> modulates all DiT
+                blocks and block-wise vector sets { Δ&#x0303;<sup>j</sup> }<sub>j=1</sub><sup>N</sup> . The visual condition z<sub>ref</sub> is used as an additional latent to deeply control the generated images.
+                (b) Stage 1 - RCE Pretraining: The segmentation head was added to facilitate training on a large-scale dataset. Binary cross-entropy (BCE)
+                is used as the segmentation loss. (c) Stage 2 - Finetuning: the FiLM  is continue finetuned with other blocks on multi-concept dataset.
+                Here, LoRA is added to the DiT and the whole process is trained with diffusion loss L<sub>diff</sub>.</p>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+  <!--/framework-->
+
+
+
+  
+ <!-- Method & Workflow -->
+ <section class="hero is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <div class="content has-text-centered">
+            <h2 class="title is-3 has-text-centered">Abaltion Study</h2>
+            <img src="./images_custom/our_results/ablation/ablation.png" width="150%">
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</section>
+<!--/ Method & Workflow -->
+
+  <!-- Method & Workflow -->
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column is-full-width">
+            <div class="content has-text-centered">
+              <h2 class="title is-3 has-text-centered">Comparison with other methods</h2>
+              <img src="images_custom/our_results/ablation/baseline2.png" width="150%">
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+  <!--/ Method & Workflow -->
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <div class="container is-max-desktop">
+            <div class="columns is-centered">
+              <div class="column is-full-width">
+                <h2 class="title is-3 has-text-centered">References</h2>
+                <div class="content has-text-justified">
+                  <p>
+                 
+                <!-- Prompt Interpolation image -->
+              </div>
+            </div>
+
+            <!-- Acknowledgements. -->
+            <!-- <div class="columns is-centered">
+              <div class="column is-full-width">
+                <h2 class="title is-3 has-text-centered">Acknowledgements</h2>
+                <div class="content has-text-justified">
+                  <p>
+                    This work is partly supported by NSF grants no. IIS-1910132 and IIS-2213335.
+                  </p>
+                </div>
+              </div>
+            </div> -->
+            <!--/ Acknowledgements. -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer class="footer">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+              href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+              Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            Website adapted from the following <a href="https://github.com/nerfies/nerfies.github.io">source code</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+  <script src="./assets/js/juxtapose.js"></script>
+
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+
+
+  <script type="text/javascript">
+
+    hrs_prompts = {
+      "images/hrs_comparison/stable/counting/1.jpg": "two apples are sitting in a kitchen next to three microwaves, waiting to be cooked or eaten.",
+      "images/hrs_comparison/stable/counting/2.jpg": "three sports balls are rolling around three bowls in a kitchen.",
+      "images/hrs_comparison/stable/counting/3.jpg": "two fire hydrants stand side-by-side in an alleyway, while three donuts lay on the ground nearby.",
+      "images/hrs_comparison/stable/counting/4.jpg": "three vases of different shapes and sizes are sitting on a shelf next to two wooden horses.",
+      "images/hrs_comparison/stable/color/1.jpg": "a blue airplane and a green car.",
+      "images/hrs_comparison/stable/color/2.jpg": "a red chair and a yellow dog.",
+      "images/hrs_comparison/stable/color/3.jpg": "a green car and a blue chair.",
+      "images/hrs_comparison/stable/color/4.jpg": "a green banana and a blue chair.",
+      "images/hrs_comparison/stable/size/1.jpg": "a car and a dog, the car is smaller than the dog.",
+      "images/hrs_comparison/stable/size/2.jpg": "a dog and a chair, the dog is bigger than the chair.",
+      "images/hrs_comparison/stable/size/3.jpg": "a chair and a horse, the chair is bigger than the horse.",
+      "images/hrs_comparison/stable/size/4.jpg": "a horse and a person, the horse is smaller than the person.",
+      "images/hrs_comparison/stable/spatial/1.jpg": "a chair on the right of a horse.",
+      "images/hrs_comparison/stable/spatial/2.jpg": "a car over a horse.",
+      "images/hrs_comparison/stable/spatial/3.jpg": "a horse on the right of a chair and on a banana.",
+      "images/hrs_comparison/stable/spatial/4.jpg": "a dog beneath a car and on the left of a person.",
+      "images/hrs_comparison/gligen/counting/1.jpg": "two apples are sitting in a kitchen next to three microwaves, waiting to be cooked or eaten.",
+      "images/hrs_comparison/gligen/counting/2.jpg": "three sports balls are rolling around three bowls in a kitchen.",
+      "images/hrs_comparison/gligen/counting/3.jpg": "two fire hydrants stand side-by-side in an alleyway, while three donuts lay on the ground nearby.",
+      "images/hrs_comparison/gligen/counting/4.jpg": "three vases of different shapes and sizes are sitting on a shelf next to two wooden horses.",
+      "images/hrs_comparison/gligen/color/1.jpg": "a blue airplane and a green car.",
+      "images/hrs_comparison/gligen/color/2.jpg": "a red chair and a yellow dog.",
+      "images/hrs_comparison/gligen/color/3.jpg": "a green car and a blue chair.",
+      "images/hrs_comparison/gligen/color/4.jpg": "a green banana and a blue chair.",
+      "images/hrs_comparison/gligen/size/1.jpg": "a car and a dog, the car is smaller than the dog.",
+      "images/hrs_comparison/gligen/size/2.jpg": "a dog and a chair, the dog is bigger than the chair.",
+      "images/hrs_comparison/gligen/size/3.jpg": "a chair and a horse, the chair is bigger than the horse.",
+      "images/hrs_comparison/gligen/size/4.jpg": "a horse and a person, the horse is smaller than the person.",
+      "images/hrs_comparison/gligen/spatial/1.jpg": "a chair on the right of a horse.",
+      "images/hrs_comparison/gligen/spatial/2.jpg": "a car over a horse.",
+      "images/hrs_comparison/gligen/spatial/3.jpg": "a horse on the right of a chair and on a banana.",
+      "images/hrs_comparison/gligen/spatial/4.jpg": "a dog beneath a car and on the left of a person.",
+      "images/hrs_comparison/multi/counting/1.jpg": "two apples are sitting in a kitchen next to three microwaves, waiting to be cooked or eaten.",
+      "images/hrs_comparison/multi/counting/2.jpg": "three sports balls are rolling around three bowls in a kitchen.",
+      "images/hrs_comparison/multi/counting/3.jpg": "two fire hydrants stand side-by-side in an alleyway, while three donuts lay on the ground nearby.",
+      "images/hrs_comparison/multi/counting/4.jpg": "three vases of different shapes and sizes are sitting on a shelf next to two wooden horses.",
+      "images/hrs_comparison/multi/color/1.jpg": "a blue airplane and a green car.",
+      "images/hrs_comparison/multi/color/2.jpg": "a red chair and a yellow dog.",
+      "images/hrs_comparison/multi/color/3.jpg": "a green car and a blue chair.",
+      "images/hrs_comparison/multi/color/4.jpg": "a green banana and a blue chair.",
+      "images/hrs_comparison/multi/size/1.jpg": "a car and a dog, the car is smaller than the dog.",
+      "images/hrs_comparison/multi/size/2.jpg": "a dog and a chair, the dog is bigger than the chair.",
+      "images/hrs_comparison/multi/size/3.jpg": "a chair and a horse, the chair is bigger than the horse.",
+      "images/hrs_comparison/multi/size/4.jpg": "a horse and a person, the horse is smaller than the person.",
+      "images/hrs_comparison/multi/spatial/1.jpg": "a chair on the right of a horse.",
+      "images/hrs_comparison/multi/spatial/2.jpg": "a car over a horse.",
+      "images/hrs_comparison/multi/spatial/3.jpg": "a horse on the right of a chair and on a banana.",
+      "images/hrs_comparison/multi/spatial/4.jpg": "a dog beneath a car and on the left of a person.",
+      "images/hrs_comparison/layout-guidance/counting/1.jpg": "two apples are sitting in a kitchen next to three microwaves, waiting to be cooked or eaten.",
+      "images/hrs_comparison/layout-guidance/counting/2.jpg": "three sports balls are rolling around three bowls in a kitchen.",
+      "images/hrs_comparison/layout-guidance/counting/3.jpg": "two fire hydrants stand side-by-side in an alleyway, while three donuts lay on the ground nearby.",
+      "images/hrs_comparison/layout-guidance/counting/4.jpg": "three vases of different shapes and sizes are sitting on a shelf next to two wooden horses.",
+      "images/hrs_comparison/layout-guidance/color/1.jpg": "a blue airplane and a green car.",
+      "images/hrs_comparison/layout-guidance/color/2.jpg": "a red chair and a yellow dog.",
+      "images/hrs_comparison/layout-guidance/color/3.jpg": "a green car and a blue chair.",
+      "images/hrs_comparison/layout-guidance/color/4.jpg": "a green banana and a blue chair.",
+      "images/hrs_comparison/layout-guidance/size/1.jpg": "a car and a dog, the car is smaller than the dog.",
+      "images/hrs_comparison/layout-guidance/size/2.jpg": "a dog and a chair, the dog is bigger than the chair.",
+      "images/hrs_comparison/layout-guidance/size/3.jpg": "a chair and a horse, the chair is bigger than the horse.",
+      "images/hrs_comparison/layout-guidance/size/4.jpg": "a horse and a person, the horse is smaller than the person.",
+      "images/hrs_comparison/layout-guidance/spatial/1.jpg": "a chair on the right of a horse.",
+      "images/hrs_comparison/layout-guidance/spatial/2.jpg": "a car over a horse.",
+      "images/hrs_comparison/layout-guidance/spatial/3.jpg": "a horse on the right of a chair and on a banana.",
+      "images/hrs_comparison/layout-guidance/spatial/4.jpg": "a dog beneath a car and on the left of a person.",
+      "images/hrs_comparison/ours/counting/1.jpg": "two apples are sitting in a kitchen next to three microwaves, waiting to be cooked or eaten.",
+      "images/hrs_comparison/ours/counting/2.jpg": "three sports balls are rolling around three bowls in a kitchen.",
+      "images/hrs_comparison/ours/counting/3.jpg": "two fire hydrants stand side-by-side in an alleyway, while three donuts lay on the ground nearby.",
+      "images/hrs_comparison/ours/counting/4.jpg": "three vases of different shapes and sizes are sitting on a shelf next to two wooden horses.",
+      "images/hrs_comparison/ours/color/1.jpg": "a blue airplane and a green car.",
+      "images/hrs_comparison/ours/color/2.jpg": "a red chair and a yellow dog.",
+      "images/hrs_comparison/ours/color/3.jpg": "a green car and a blue chair.",
+      "images/hrs_comparison/ours/color/4.jpg": "a green banana and a blue chair.",
+      "images/hrs_comparison/ours/size/1.jpg": "a car and a dog, the car is smaller than the dog.",
+      "images/hrs_comparison/ours/size/2.jpg": "a dog and a chair, the dog is bigger than the chair.",
+      "images/hrs_comparison/ours/size/3.jpg": "a chair and a horse, the chair is bigger than the horse.",
+      "images/hrs_comparison/ours/size/4.jpg": "a horse and a person, the horse is smaller than the person.",
+      "images/hrs_comparison/ours/spatial/1.jpg": "a chair on the right of a horse.",
+      "images/hrs_comparison/ours/spatial/2.jpg": "a car over a horse.",
+      "images/hrs_comparison/ours/spatial/3.jpg": "a horse on the right of a chair and on a banana.",
+      "images/hrs_comparison/ours/spatial/4.jpg": "a dog beneath a car and on the left of a person.",
+      "images/hrs_comparison/box_layout/counting/1.jpg": "apples are sitting in a kitchen next to three microwaves, waiting to be cooked or eaten..jpg.",
+      "images/hrs_comparison/box_layout/counting/2.jpg": "three sports balls are rolling around three bowls in a kitchen.",
+      "images/hrs_comparison/box_layout/counting/3.jpg": "two fire hydrants stand side-by-side in an alleyway, while three donuts lay on the ground nearby.",
+      "images/hrs_comparison/box_layout/counting/4.jpg": "three vases of different shapes and sizes are sitting on a shelf next to two wooden horses.",
+      "images/hrs_comparison/box_layout/color/1.jpg": "blue airplane and a green car.",
+      "images/hrs_comparison/box_layout/color/2.jpg": "red chair and a yellow dog.",
+      "images/hrs_comparison/box_layout/color/3.jpg": "green car and a blue chair.",
+      "images/hrs_comparison/box_layout/color/4.jpg": "green banana and a blue chair.",
+      "images/hrs_comparison/box_layout/size/1.jpg": "car and a dog, the car is smaller than the dog.",
+      "images/hrs_comparison/box_layout/size/2.jpg": "dog and a chair, the dog is bigger than the chair.",
+      "images/hrs_comparison/box_layout/size/3.jpg": "chair and a horse, the chair is bigger than the horse.",
+      "images/hrs_comparison/box_layout/size/4.jpg": "horse and a person, the horse is smaller than the person.",
+      "images/hrs_comparison/box_layout/spatial/1.jpg": "chair on the right of a horse.",
+      "images/hrs_comparison/box_layout/spatial/2.jpg": "car over a horse.",
+      "images/hrs_comparison/box_layout/spatial/3.jpg": "horse on the right of a chair and on a banana",
+      "images/hrs_comparison/box_layout/spatial/4.jpg": "dog beneath a car and on the left of a person",
+      "images/hrs_comparison/att/counting/1.jpg": "two apples are sitting in a kitchen next to three microwaves, waiting to be cooked or eaten.",
+      "images/hrs_comparison/att/counting/2.jpg": "three sports balls are rolling around three bowls in a kitchen.",
+      "images/hrs_comparison/att/counting/3.jpg": "two fire hydrants stand side-by-side in an alleyway, while three donuts lay on the ground nearby.",
+      "images/hrs_comparison/att/counting/4.jpg": "three vases of different shapes and sizes are sitting on a shelf next to two wooden horses.",
+      "images/hrs_comparison/att/color/1.jpg": "a blue airplane and a green car.",
+      "images/hrs_comparison/att/color/2.jpg": "a red chair and a yellow dog.",
+      "images/hrs_comparison/att/color/3.jpg": "a green car and a blue chair.",
+      "images/hrs_comparison/att/color/4.jpg": "a green banana and a blue chair.",
+      "images/hrs_comparison/att/size/1.jpg": "a car and a dog, the car is smaller than the dog.",
+      "images/hrs_comparison/att/size/2.jpg": "a dog and a chair, the dog is bigger than the chair.",
+      "images/hrs_comparison/att/size/3.jpg": "a chair and a horse, the chair is bigger than the horse.",
+      "images/hrs_comparison/att/size/4.jpg": "a horse and a person, the horse is smaller than the person.",
+      "images/hrs_comparison/att/spatial/1.jpg": "a chair on the right of a horse.",
+      "images/hrs_comparison/att/spatial/2.jpg": "a car over a horse.",
+      "images/hrs_comparison/att/spatial/3.jpg": "a horse on the right of a chair and on a banana.",
+      "images/hrs_comparison/att/spatial/4.jpg": "a dog beneath a car and on the left of a person.",
+    }
+    var currentHRSCategory = "color";
+    var currentHRSMethod = "ours";
+    var currentHRSID = "1";
+
+    function ChangeHRSCat() {
+
+      var currentHRSCategory = document.getElementById("hrs-cat-select").value;
+
+      ChangeHRSImage();
+    }
+
+    function ChangeHRSID() {
+
+      var currentHRSID = document.getElementById("hrs-id-select").value;
+
+      ChangeHRSImage();
+    }
+
+
+    function ChangeHRSMethod() {
+      var currentHRSMethod = document.getElementById("hrs-method-select").value;
+      if (currentHRSMethod == 'att') {
+        document.getElementById("method_author").innerHTML = "Hila Chefer, Yuval Alaluf, Yael Vinker, Lior Wolf, and Daniel Cohen-Or. <br> *Boxes are not used in this method.";
+        document.getElementById("method_title").innerHTML = "Attend-and-excite: Attention-based semantic guidance for text-to-image diffusion models";
+      }
+      else if (currentHRSMethod == 'layout-guidance') {
+        document.getElementById("method_author").innerHTML = "Minghao Chen, Iro Laina, and Andrea Vedaldi.";
+        document.getElementById("method_title").innerHTML = "Training-Free Layout Control with Cross-Attention Guidance";
+      }
+      else if (currentHRSMethod == 'gligen') {
+        document.getElementById("method_author").innerHTML = "Yuheng Li, Haotian Liu, Qingyang Wu, Fangzhou Mu, Jianwei Yang, Jianfeng Gao, Chunyuan Li, and Yong Jae Lee.";
+        document.getElementById("method_title").innerHTML = "GLIGEN: Open-Set Grounded Text-to-Image Generation";
+      }
+      else if (currentHRSMethod == 'multi') {
+        document.getElementById("method_author").innerHTML = "Omer Bar-Tal, Lior Yariv, Yaron Lipman, and Tali Dekel.";
+        document.getElementById("method_title").innerHTML = "Multidiffusion: Fusing Diffusion Paths for Controlled Image Generation.";
+      }
+      else if (currentHRSMethod == 'stable') {
+        document.getElementById("method_author").innerHTML = "Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Björn Ommer. <br> *Boxes are not used in this method.";
+        document.getElementById("method_title").innerHTML = "High-Resolution Image Synthesis with Latent Diffusion Models";
+      }
+      else {
+        document.getElementById("method_author").innerHTML = "Anonymous";
+        document.getElementById("method_title").innerHTML = "Grounded Text-to-Image Synthesis with Attention Refocusing";
+      }
+
+      ChangeHRSImage();
+    }
+
+    function ChangeHRSImage() {
+      var currentHRSCategory = document.getElementById("hrs-cat-select").value;
+      var currentHRSMethod = document.getElementById("hrs-method-select").value;
+      var currentHRSID = document.getElementById("hrs-id-select").value;
+
+      // Specify the directory path
+      const directoryPath = "images/hrs_comparison/" + currentHRSMethod + "/" + currentHRSCategory + "/" + currentHRSID + ".jpg";
+
+      var hrs_image = document.getElementById('hrs_image');
+      hrs_image.src = "./images/hrs_comparison/" + currentHRSMethod + "/" + currentHRSCategory + "/" + currentHRSID + ".jpg";
+
+      var hrs_box = document.getElementById('hrs_box');
+      hrs_box.src = "./images/hrs_comparison/box_layout/" + currentHRSCategory + "/" + currentHRSID + ".jpg";
+
+      var hrs_prompt = document.getElementById('hrs_prompt');
+      hrs_prompt.innerText = hrs_prompts[directoryPath]
+
+    }
+
+    drawbench_prompts = {
+      "images/drawbench_comparison/stable/counting/1.jpg": "One cat and two dogs sitting on the grass.",
+      "images/drawbench_comparison/stable/counting/4.jpg": "Two cats and three dogs sitting on the grass.",
+      "images/drawbench_comparison/stable/counting/7.jpg": "Three cats and one dog sitting on the grass.",
+      "images/drawbench_comparison/stable/counting/9.jpg": "Three cats and two dogs sitting on the grass.",
+      "images/drawbench_comparison/stable/counting/2.jpg": "Two cars on the street.",
+      "images/drawbench_comparison/stable/counting/5.jpg": "Three cars on the street.",
+      "images/drawbench_comparison/stable/counting/10.jpg": "Five cars on the street.",
+      "images/drawbench_comparison/stable/counting/3.jpg": "Two dogs on the street.",
+      "images/drawbench_comparison/stable/counting/6.jpg": "Three dogs on the street.",
+      "images/drawbench_comparison/stable/spatial/1.jpg": "A banana on the left of an apple.",
+      "images/drawbench_comparison/stable/spatial/4.jpg": "A car on the left of a bus.",
+      "images/drawbench_comparison/stable/spatial/7.jpg": "A cat on the left of a dog.",
+      "images/drawbench_comparison/stable/spatial/9.jpg": "A pizza on the right of a suitcase.",
+      "images/drawbench_comparison/stable/spatial/2.jpg": "A cat on the right of a tennis racket.",
+      "images/drawbench_comparison/stable/spatial/5.jpg": "A stop sign on the right of a refrigerator.",
+      "images/drawbench_comparison/stable/spatial/8.jpg": "A zebra to the right of a fire hydrant.",
+      "images/drawbench_comparison/stable/spatial/10.jpg": "A wine glass on top of a dog.",
+      "images/drawbench_comparison/stable/spatial/3.jpg": "A bicycle on top of a boat.",
+      "images/drawbench_comparison/stable/spatial/6.jpg": "A giraffe underneath a microwave.",
+      "images/drawbench_comparison/gligen/counting/1.jpg": "One cat and two dogs sitting on the grass.",
+      "images/drawbench_comparison/gligen/counting/4.jpg": "Two cats and three dogs sitting on the grass.",
+      "images/drawbench_comparison/gligen/counting/7.jpg": "Three cats and one dog sitting on the grass.",
+      "images/drawbench_comparison/gligen/counting/9.jpg": "Three cats and two dogs sitting on the grass.",
+      "images/drawbench_comparison/gligen/counting/2.jpg": "Two cars on the street.",
+      "images/drawbench_comparison/gligen/counting/5.jpg": "Three cars on the street.",
+      "images/drawbench_comparison/gligen/counting/8.jpg": "Four cars on the street.",
+      "images/drawbench_comparison/gligen/counting/10.jpg": "Five cars on the street.",
+      "images/drawbench_comparison/gligen/counting/3.jpg": "Two dogs on the street.",
+      "images/drawbench_comparison/gligen/counting/6.jpg": "Three dogs on the street.",
+      "images/drawbench_comparison/gligen/spatial/1.jpg": "A banana on the left of an apple.",
+      "images/drawbench_comparison/gligen/spatial/4.jpg": "A car on the left of a bus.",
+      "images/drawbench_comparison/gligen/spatial/7.jpg": "A cat on the left of a dog.",
+      "images/drawbench_comparison/gligen/spatial/9.jpg": "A pizza on the right of a suitcase.",
+      "images/drawbench_comparison/gligen/spatial/2.jpg": "A cat on the right of a tennis racket.",
+      "images/drawbench_comparison/gligen/spatial/5.jpg": "A stop sign on the right of a refrigerator.",
+      "images/drawbench_comparison/gligen/spatial/8.jpg": "A zebra to the right of a fire hydrant.",
+      "images/drawbench_comparison/gligen/spatial/10.jpg": "A wine glass on top of a dog.",
+      "images/drawbench_comparison/gligen/spatial/3.jpg": "A bicycle on top of a boat.",
+      "images/drawbench_comparison/gligen/spatial/6.jpg": "A giraffe underneath a microwave.",
+      "images/drawbench_comparison/our/counting/1.jpg": "One cat and two dogs sitting on the grass.",
+      "images/drawbench_comparison/our/counting/4.jpg": "Two cats and three dogs sitting on the grass.",
+      "images/drawbench_comparison/our/counting/7.jpg": "Three cats and one dog sitting on the grass.",
+      "images/drawbench_comparison/our/counting/9.jpg": "Three cats and two dogs sitting on the grass.",
+      "images/drawbench_comparison/our/counting/2.jpg": "Two cars on the street.",
+      "images/drawbench_comparison/our/counting/5.jpg": "Three cars on the street.",
+      "images/drawbench_comparison/our/counting/8.jpg": "Four cars on the street.",
+      "images/drawbench_comparison/our/counting/10.jpg": "Five cars on the street.",
+      "images/drawbench_comparison/our/counting/3.jpg": "Two dogs on the street.",
+      "images/drawbench_comparison/our/counting/6.jpg": "Three dogs on the street.",
+      "images/drawbench_comparison/our/spatial/1.jpg": "A banana on the left of an apple.",
+      "images/drawbench_comparison/our/spatial/4.jpg": "A car on the left of a bus.",
+      "images/drawbench_comparison/our/spatial/7.jpg": "A cat on the left of a dog.",
+      "images/drawbench_comparison/our/spatial/9.jpg": "A pizza on the right of a suitcase.",
+      "images/drawbench_comparison/our/spatial/2.jpg": "A cat on the right of a tennis racket.",
+      "images/drawbench_comparison/our/spatial/5.jpg": "A stop sign on the right of a refrigerator.",
+      "images/drawbench_comparison/our/spatial/8.jpg": "A zebra to the right of a fire hydrant.",
+      "images/drawbench_comparison/our/spatial/10.jpg": "A wine glass on top of a dog.",
+      "images/drawbench_comparison/our/spatial/3.jpg": "A bicycle on top of a boat.",
+      "images/drawbench_comparison/our/spatial/6.jpg": "A giraffe underneath a microwave.",
+      "images/drawbench_comparison/layout/counting/1.jpg": "cat and two dogs sitting on the grass.",
+      "images/drawbench_comparison/layout/counting/4.jpg": "cats and three dogs sitting on the grass.",
+      "images/drawbench_comparison/layout/counting/7.jpg": "cats and one dog sitting on the grass.",
+      "images/drawbench_comparison/layout/counting/9.jpg": "cats and two dogs sitting on the grass.",
+      "images/drawbench_comparison/layout/counting/2.jpg": "cars on the street.",
+      "images/drawbench_comparison/layout/counting/5.jpg": "cars on the street.",
+      "images/drawbench_comparison/layout/counting/8.jpg": "cars on the street.",
+      "images/drawbench_comparison/layout/counting/10.jpg": "cars on the street.",
+      "images/drawbench_comparison/layout/counting/3.jpg": "dogs on the street.",
+      "images/drawbench_comparison/layout/counting/6.jpg": "dogs on the street.",
+      "images/drawbench_comparison/layout/spatial/1.jpg": "banana on the left of an apple.",
+      "images/drawbench_comparison/layout/spatial/4.jpg": "car on the left of a bus.",
+      "images/drawbench_comparison/layout/spatial/7.jpg": "cat on the left of a dog.",
+      "images/drawbench_comparison/layout/spatial/9.jpg": "pizza on the right of a suitcase.",
+      "images/drawbench_comparison/layout/spatial/2.jpg": "cat on the right of a tennis racket.",
+      "images/drawbench_comparison/layout/spatial/5.jpg": "stop sign on the right of a refrigerator.",
+      "images/drawbench_comparison/layout/spatial/8.jpg": "zebra to the right of a fire hydrant.",
+      "images/drawbench_comparison/layout/spatial/10.jpg": "wine glass on top of a dog.",
+      "images/drawbench_comparison/layout/spatial/3.jpg": "bicycle on top of a boat.",
+      "images/drawbench_comparison/layout/spatial/6.jpg": "giraffe underneath a microwave.",
+      "images/drawbench_comparison/multi_diffusion/counting/1.jpg": "One cat and two dogs sitting on the grass.",
+      "images/drawbench_comparison/multi_diffusion/counting/4.jpg": "Two cats and three dogs sitting on the grass.",
+      "images/drawbench_comparison/multi_diffusion/counting/7.jpg": "Three cats and one dog sitting on the grass.",
+      "images/drawbench_comparison/multi_diffusion/counting/9.jpg": "Three cats and two dogs sitting on the grass.",
+      "images/drawbench_comparison/multi_diffusion/counting/2.jpg": "Two cars on the street.",
+      "images/drawbench_comparison/multi_diffusion/counting/8.jpg": "Four cars on the street.",
+      "images/drawbench_comparison/multi_diffusion/counting/10.jpg": "Five cars on the street.",
+      "images/drawbench_comparison/multi_diffusion/counting/3.jpg": "Two dogs on the street.",
+      "images/drawbench_comparison/multi_diffusion/counting/6.jpg": "Three dogs on the street.",
+      "images/drawbench_comparison/multi_diffusion/spatial/1.jpg": "A banana on the left of an apple.",
+      "images/drawbench_comparison/multi_diffusion/spatial/4.jpg": "A car on the left of a bus.",
+      "images/drawbench_comparison/multi_diffusion/spatial/7.jpg": "A cat on the left of a dog.",
+      "images/drawbench_comparison/multi_diffusion/spatial/9.jpg": "A pizza on the right of a suitcase.",
+      "images/drawbench_comparison/multi_diffusion/spatial/2.jpg": "A cat on the right of a tennis racket.",
+      "images/drawbench_comparison/multi_diffusion/spatial/5.jpg": "A stop sign on the right of a refrigerator.",
+      "images/drawbench_comparison/multi_diffusion/spatial/8.jpg": "A zebra to the right of a fire hydrant.",
+      "images/drawbench_comparison/multi_diffusion/spatial/10.jpg": "A wine glass on top of a dog.",
+      "images/drawbench_comparison/multi_diffusion/spatial/3.jpg": "A bicycle on top of a boat.",
+      "images/drawbench_comparison/multi_diffusion/spatial/6.jpg": "A giraffe underneath a microwave.",
+      "images/drawbench_comparison/layout_guidance/counting/1.jpg": "One cat and two dogs sitting on the grass.",
+      "images/drawbench_comparison/layout_guidance/counting/4.jpg": "Two cats and three dogs sitting on the grass.",
+      "images/drawbench_comparison/layout_guidance/counting/7.jpg": "Three cats and one dog sitting on the grass.",
+      "images/drawbench_comparison/layout_guidance/counting/2.jpg": "Two cars on the street.",
+      "images/drawbench_comparison/layout_guidance/counting/5.jpg": "Three cars on the street.",
+      "images/drawbench_comparison/layout_guidance/counting/8.jpg": "Four cars on the street.",
+      "images/drawbench_comparison/layout_guidance/counting/10.jpg": "Five cars on the street.",
+      "images/drawbench_comparison/layout_guidance/counting/3.jpg": "Two dogs on the street.",
+      "images/drawbench_comparison/layout_guidance/counting/6.jpg": "Three dogs on the street.",
+      "images/drawbench_comparison/layout_guidance/spatial/1.jpg": "A banana on the left of an apple.",
+      "images/drawbench_comparison/layout_guidance/spatial/4.jpg": "A car on the left of a bus.",
+      "images/drawbench_comparison/layout_guidance/spatial/7.jpg": "A cat on the left of a dog.",
+      "images/drawbench_comparison/layout_guidance/spatial/9.jpg": "A pizza on the right of a suitcase.",
+      "images/drawbench_comparison/layout_guidance/spatial/2.jpg": "A cat on the right of a tennis racket.",
+      "images/drawbench_comparison/layout_guidance/spatial/5.jpg": "A stop sign on the right of a refrigerator.",
+      "images/drawbench_comparison/layout_guidance/spatial/8.jpg": "A zebra to the right of a fire hydrant.",
+      "images/drawbench_comparison/layout_guidance/spatial/10.jpg": "A wine glass on top of a dog.",
+      "images/drawbench_comparison/layout_guidance/spatial/3.jpg": "A bicycle on top of a boat.",
+      "images/drawbench_comparison/layout_guidance/spatial/6.jpg": "A giraffe underneath a microwave.",
+      "images/drawbench_comparison/att/counting/1.jpg": "One cat and two dogs sitting on the grass.",
+      "images/drawbench_comparison/att/counting/4.jpg": "Two cats and three dogs sitting on the grass.",
+      "images/drawbench_comparison/att/counting/7.jpg": "Three cats and one dog sitting on the grass.",
+      "images/drawbench_comparison/att/counting/9.jpg": "Three cats and two dogs sitting on the grass.",
+      "images/drawbench_comparison/att/counting/2.jpg": "Two cars on the street.",
+      "images/drawbench_comparison/att/counting/5.jpg": "Three cars on the street.",
+      "images/drawbench_comparison/att/counting/8.jpg": "Four cars on the street.",
+      "images/drawbench_comparison/att/counting/10.jpg": "Five cars on the street.",
+      "images/drawbench_comparison/att/counting/3.jpg": "Two dogs on the street.",
+      "images/drawbench_comparison/att/counting/6.jpg": "Three dogs on the street.",
+      "images/drawbench_comparison/att/spatial/1.jpg": "A banana on the left of an apple.",
+      "images/drawbench_comparison/att/spatial/4.jpg": "A car on the left of a bus.",
+      "images/drawbench_comparison/att/spatial/7.jpg": "A cat on the left of a dog.",
+      "images/drawbench_comparison/att/spatial/9.jpg": "A pizza on the right of a suitcase.",
+      "images/drawbench_comparison/att/spatial/2.jpg": "A cat on the right of a tennis racket.",
+      "images/drawbench_comparison/att/spatial/5.jpg": "A stop sign on the right of a refrigerator.",
+      "images/drawbench_comparison/att/spatial/8.jpg": "A zebra to the right of a fire hydrant.",
+      "images/drawbench_comparison/att/spatial/10.jpg": "A wine glass on top of a dog.",
+      "images/drawbench_comparison/att/spatial/3.jpg": "A bicycle on top of a boat.",
+      "images/drawbench_comparison/att/spatial/6.jpg": "A giraffe underneath a microwave.",
+    }
+
+    var currentDrawBenchCategory = "color";
+    var currentDrawBenchMethod = "ours";
+    var currentDrawBenchID = "1";
+
+    function ChangeDrawBenchCat() {
+
+      var currentDrawBenchCategory = document.getElementById("drawbench-cat-select").value;
+
+      ChangeDrawBenchImage();
+    }
+
+    function ChangeDrawBenchID() {
+
+      var currentDrawBenchID = document.getElementById("drawbench-id-select").value;
+
+      ChangeDrawBenchImage();
+    }
+
+
+    function ChangeDrawBenchMethod() {
+      var currentDrawBenchMethod = document.getElementById("drawbench-method-select").value;
+      if (currentDrawBenchMethod == 'att') {
+        document.getElementById("drawbench_method_author").innerHTML = "Hila Chefer, Yuval Alaluf, Yael Vinker, Lior Wolf, and Daniel Cohen-Or. <br> *Boxes are not used in this method.";
+        document.getElementById("drawbench_method_title").innerHTML = "Attend-and-excite: Attention-based semantic guidance for text-to-image diffusion models";
+      }
+      else if (currentDrawBenchMethod == 'layout_guidance') {
+        document.getElementById("drawbench_method_author").innerHTML = "Minghao Chen, Iro Laina, and Andrea Vedaldi.";
+        document.getElementById("drawbench_method_title").innerHTML = "Training-Free Layout Control with Cross-Attention Guidance";
+      }
+      else if (currentDrawBenchMethod == 'gligen') {
+        document.getElementById("drawbench_method_author").innerHTML = "Yuheng Li, Haotian Liu, Qingyang Wu, Fangzhou Mu, Jianwei Yang, Jianfeng Gao, Chunyuan Li, and Yong Jae Lee.";
+        document.getElementById("drawbench_method_title").innerHTML = "GLIGEN: Open-Set Grounded Text-to-Image Generation";
+      }
+      else if (currentDrawBenchMethod == 'multi_diffusion') {
+        document.getElementById("drawbench_method_author").innerHTML = "Omer Bar-Tal, Lior Yariv, Yaron Lipman, and Tali Dekel.";
+        document.getElementById("drawbench_method_title").innerHTML = "Multidiffusion: Fusing Diffusion Paths for Controlled Image Generation.";
+      }
+      else if (currentDrawBenchMethod == 'stable') {
+        document.getElementById("drawbench_method_author").innerHTML = "Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Björn Ommer. <br> *Boxes are not used in this method.";
+        document.getElementById("drawbench_method_title").innerHTML = "High-Resolution Image Synthesis with Latent Diffusion Models";
+      }
+      else {
+        document.getElementById("drawbench_method_author").innerHTML = "Anonymous";
+        document.getElementById("drawbench_method_title").innerHTML = "Grounded Text-to-Image Synthesis with Attention Refocusing";
+      }
+
+      ChangeDrawBenchImage();
+    }
+
+    function ChangeDrawBenchImage() {
+      var currentDrawBenchCategory = document.getElementById("drawbench-cat-select").value;
+      var currentDrawBenchMethod = document.getElementById("drawbench-method-select").value;
+      var currentDrawBenchID = document.getElementById("drawbench-id-select").value;
+
+      // Specify the directory path
+      const directoryPath = "images/drawbench_comparison/" + currentDrawBenchMethod + "/" + currentDrawBenchCategory + "/" + currentDrawBenchID + ".jpg";
+
+      var drawbench_image = document.getElementById('drawbench_image');
+      drawbench_image.src = "./images/drawbench_comparison/" + currentDrawBenchMethod + "/" + currentDrawBenchCategory + "/" + currentDrawBenchID + ".jpg";
+
+      var drawbench_box = document.getElementById('drawbench_box');
+      drawbench_box.src = "./images/drawbench_comparison/layout/" + currentDrawBenchCategory + "/" + currentDrawBenchID + ".jpg";
+
+      var drawbench_prompt = document.getElementById('drawbench_prompt');
+      drawbench_prompt.innerText = drawbench_prompts[directoryPath]
+
+    }
+
+  </script>
+
+  <script type="text/javascript">
+    var currentProList = ["dog", "cat", "raccoon", "panda"];
+    var currentPro = "dog";
+    var currentActList = ["crown", "party", 'cowboy', 'mushroom'];
+    var currentAct = "crown";
+    var currentLocList = ["plant", "cake", "tv"];
+    var currentLoc = "plant";
+
+    function ChangeProtagonist(idx) {
+      var li_list = document.getElementById("current-pro-ul").children;
+      console.log(idx);
+      console.log(li_list);
+      for (i = 0; i < li_list.length; i++) {
+        li_list[i].className = "flex-sm-fill text-sm-center nav-link";
+      }
+      li_list[idx].className = "flex-sm-fill text-sm-center nav-link active";
+      currentPro = currentProList[idx];
+      document.getElementById("output_canvas").style.display = 'block';
+
+      ChangeImageComp();
+    }
+
+    function ChangeWearing(idx) {
+      var li_list = document.getElementById("current-act-ul").children;
+      console.log(idx);
+      console.log(li_list);
+      for (i = 0; i < li_list.length; i++) {
+        li_list[i].className = "flex-sm-fill text-sm-center nav-link";
+      }
+      li_list[idx].className = "flex-sm-fill text-sm-center nav-link active";
+      currentAct = currentActList[idx];
+      document.getElementById("output_canvas").style.display = 'block';
+
+      ChangeImageComp();
+    }
+
+    function ChangeObject(idx) {
+      var li_list = document.getElementById("current-loc-ul").children;
+      console.log(idx);
+      console.log(li_list);
+      for (i = 0; i < li_list.length; i++) {
+        li_list[i].className = "flex-sm-fill text-sm-center nav-link";
+      }
+      li_list[idx].className = "flex-sm-fill text-sm-center nav-link active";
+      currentLoc = currentLocList[idx];
+      document.getElementById("output_canvas").style.display = 'block';
+
+      ChangeImageComp();
+    }
+
+    function ChangeImageComp() {
+      var image = document.getElementById('output_image');
+      image.src = "./images/compositionality/" + currentPro + "_" + currentAct + "_" + currentLoc + ".jpg";
+    }
+
+  </script>
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+
+</html>
